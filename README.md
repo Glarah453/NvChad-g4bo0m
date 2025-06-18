@@ -58,29 +58,29 @@ Se necesita la versión 0.11 de Neovim para instalar Nvchad, para eso se debe se
 
  7.  Si quieres una version estable pero antigua solo corre el siguiente comando dependiendo del sistema:
 
-- Distribuciones basada en Debian:
+        - Distribuciones basada en Debian:
 
-	`sudo apt install neovim`
+	            sudo apt install neovim
 
-- Fedora:
-	
-    `sudo dnf install neovim`
+        - Fedora:
+            
+                sudo dnf install neovim
 
-- Distribuciones basadas en Arch:
-			
-    `sudo pacman -Sy neovim`
+        - Distribuciones basadas en Arch:
+                    
+               sudo pacman -Sy neovim
 
-- NixOS:
-	
-    `sudo nix-env -Ai nixos.neovim`
+        - NixOS:
+            
+                sudo nix-env -Ai nixos.neovim
 
-- Void Linux:
-			
-    `sudo xbps-install -Sy neovim`
+        - Void Linux:
+                    
+                sudo xbps-install -Sy neovim
 
-- Snap:
-		
-    `sudo snap install neovim`
+        - Snap:
+                
+                sudo snap install neovim
 
 
 ### Instalación de paquetes:
@@ -103,11 +103,8 @@ git clone https://github.com/Glarah453/NvChad-g4bo0m ~/.config/nvim && nvim
 
  3. Aprenda la personalización de ui y base46 desde `:h nvui`.
 
-- Actualizar:
+- **Actualiza con el comando `Lazy sync`**.
 
-```bash
-Lazy sync comando
-```
 - Desinstalar:
 
 ```bash
@@ -164,7 +161,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 - Ejecutar el siguiente comando en la consola de Windows:
 		
-    `choco install ripgrep`
+        choco install ripgrep
 
 ### Instalar Mingw64 para compilaciónes de GCC en Windows:
 
@@ -180,7 +177,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 - **Eliminar carpetas antiguas de configuraciones de neovim**
 	
-### **Instalación de NvChad:**
+### 🏃‍♂️ **Instalación de NvChad:**
 
 - Si estás usando Command Prompt(CMD)
 
