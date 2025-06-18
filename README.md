@@ -150,7 +150,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 - Correr el MSI
 - Ejecutar nvim.exe en la CLI de su elección
 
-- nota: en Windows es posible que necesite instalar vcruntime140.dll (https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170).
+- nota: en Windows es posible que necesite instalar [vcruntime140.dll](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170).
 
 
 ### Instalar un Nerd Font para Windows Terminal:
