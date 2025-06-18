@@ -1,12 +1,12 @@
-# **NvChad g4bo0m**
+# ⚔️ **NvChad g4bo0m**
 
 Antes de clonar el repositorio e instalar este editor personalizado de [Neovim](https://github.com/neovim/neovim/releases/tag/stable), **se requiere tener instalado** ciertos programas y paquetes para que NvChad funcione correctamente.
 
-# 📋 **Requisitos de Instalación** 
+# 📋  **Requisitos de Instalación** 
 
-## Linux/Unix.
+## 🐧 Linux/Unix.
 
-### Instalar una Nerd Font compatible:
+### ⌨️ Instalar una Nerd Font compatible:
 
 1. Descargar un  Nerd Font del siguiente [Link](https://www.nerdfonts.com/font-downloads)
 
@@ -40,7 +40,7 @@ fc-list | wc -l
 fc-list | grep "nombre-o-partes-del-nombre.ttf"
 ```
 
-### Instalar Nvim en Linux:
+### 🏃‍♂️ Instalar Nvim en Linux:
 
 Se necesita la versión 0.11 de Neovim para instalar Nvchad, para eso se debe seguir los siguientes pasos.
 
@@ -83,7 +83,7 @@ Se necesita la versión 0.11 de Neovim para instalar Nvchad, para eso se debe se
                 sudo snap install neovim
 
 
-### Instalación de paquetes:
+### 📦 Instalación de paquetes:
 
 Instalación de [Python](https://www.python.org/downloads/), [NodeJs](https://nodejs.org/en/download), [Npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), [GCC](https://greenwebpage.com/community/how-to-install-gcc-compiler-on-linux/), [G++](https://greenwebpage.com/community/how-to-install-gcc-compiler-on-linux/), [Ripgrep](https://github.com/BurntSushi/ripgrep) y [Make](https://www.geeksforgeeks.org/how-to-install-make-on-ubuntu/):
 
@@ -91,7 +91,7 @@ Instalación de [Python](https://www.python.org/downloads/), [NodeJs](https://no
 sudo apt install Python nodejs npm gcc g++ -y && sudo apt-get install ripgrep make -y
 ```
 
-### 🏃‍♂️ **Instalar Nvchad en Linux:**
+### ⚒️⚔️ **Instalar Nvchad en Linux:**
 
  1. Ejecutar el siguiente comando:
 
@@ -113,25 +113,24 @@ rm -rf ~/.local/state/nvim
 rm -rf ~/.local/share/nvim
 ```
 
-# 📋 **Requisitos de Instalación**
 
-## **Windows (64/32):**
+## 🪟 **Windows (64/32):**
 
-### Instalar Python:
+### 📦 Instalar Python:
 	
 - [Descargar](https://www.python.org/downloads/) e instalar, habilitar ruta en el path y desactivar limite de path al final de la instalación.
 
-### Instalar Nodejs con Npm:
+### 📦 Instalar Nodejs con Npm:
 	
 - [Descargar](https://nodejs.org/es/download) e instalar  y luego correr el comando `npm install -g npm`.
 
-### Instalar Windows Terminal:	
+### 🔳 Instalar Windows Terminal:	
 	
 - [Descargar](https://apps.microsoft.com/detail/9n0dx20hk701?hl=es-ES&gl=ES) y correr el ejecutable.
 	
 
 
-### Instalar Chocolatey:
+### 📦 Instalar Chocolatey:
 
 Chocolatey es un gestor de paquetes para Windows que facilita la instalación, actualización y desinstalación de software a través de comandos. Es similar a herramientas como apt en Linux, pero específicamente para Windows. En esencia, te permite instalar aplicaciones, actualizar software y desinstalar programas sin necesidad de navegar por interfaces gráficas o buscar enlaces de descarga. 
 
@@ -143,7 +142,7 @@ Chocolatey es un gestor de paquetes para Windows que facilita la instalación, a
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-### Instalar Nvim:
+### 🏃‍♂️ Instalar Nvim:
 	
 - Descargar archivo MSI del [repositorio](https://github.com/neovim/neovim/releases/tag/stable)
 	
@@ -153,17 +152,17 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 - nota: en Windows es posible que necesite instalar [vcruntime140.dll](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170).
 
 
-### Instalar un Nerd Font para Windows Terminal:
+### ⌨️ Instalar un Nerd Font para Windows Terminal:
 	
 - Se descarga el [Nerd Font](https://www.nerdfonts.com/font-downloads) y se descomprime el archivo, luego se selecciona todos los archivos .ttf y apretar click derecho e instalar.
 
-### Instalar Ripgrep con chocolatey:
+### 📦 Instalar Ripgrep con chocolatey:
 
 - Ejecutar el siguiente comando en la consola de Windows:
 		
         choco install ripgrep
 
-### Instalar Mingw64 para compilaciónes de GCC en Windows:
+### 📦 Instalar Mingw64 para compilaciónes de GCC en Windows:
 
 - [Descargar](https://github.com/niXman/mingw-builds-binaries/releases) el archivo `x86_64-15.1.0-release-posix-seh-ucrt-rt_v12-rev0.7z`.
 
@@ -171,13 +170,13 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 	
 - Una vez realizado lo anterior se debe copiar la ruta de la carpeta `mingw64/bin` e ingresarla en las variables de entorno del sistema (PATH).
 
-### Instalar GnuWin32 para compilaciónes Make:
+### 📦 Instalar GnuWin32 para compilaciónes Make:
 
 - [Descargar](https://sourceforge.net/projects/gnuwin32/) y correr el ejecutable.
 
 - **Eliminar carpetas antiguas de configuraciones de neovim**
 	
-### 🏃‍♂️ **Instalación de NvChad:**
+### ⚒️⚔️ **Instalación de NvChad:**
 
 - Si estás usando Command Prompt(CMD)
 
