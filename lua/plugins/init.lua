@@ -110,4 +110,14 @@ return {
     end,
     event = "VeryLazy",
   },
+
+  {
+    "Exafunction/codeium.nvim",
+    event = "InsertEnter",
+    config = function()
+      require("codeium").setup({})
+    end,
+  },
+
+
 }

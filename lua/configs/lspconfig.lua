@@ -1,6 +1,8 @@
 require("nvchad.configs.lspconfig").defaults()
 
-local servers = { "html", "htmx", "cssls", "pyre", "ts_ls", "ruby_lsp", "angularls", "lsp_ai" }
+-- local servers = { "html", "htmx", "cssls", "pyre", "ts_ls", "ruby_lsp", "angularls", "lsp_ai" }
+-- local servers = { "html", "htmx", "cssls", "pyre", "ts_ls", "angularls" }
+local servers = { "html", "cssls" }
 
 -- local servers = { "astro-language-server", "angular-language-server", "apex-language-server", "arduino-languaje-server",
 --         "asm-lsp", "ast_grep", "autotools-language-server", "azure-pipelines-language-server",
