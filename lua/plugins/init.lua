@@ -54,6 +54,27 @@ return {
     },
   },
 
+  {
+    'nvim-tree/nvim-tree.lua',
+    opts = {
+      git = {
+        enable = true,
+        timeout = 10000, -- 5 segundos de margen para Windows
+      },
+      filters = {
+        dotfiles = false, -- Esto muestra archivos como .gitignore, .env
+        git_ignored = false,   -- Muestra archivos listados en .gitignore
+        custom = { '/.env', '/scripts' },
+        -- Si necesitas más control, puedes añadir:
+        -- custom = { '.env' }, -- para forzar .env
+      },
+      -- O si no usas filters, puedes forzar la visibilidad con:
+      -- hide_dotfiles = false, -- (¡Cuidado! Esto muestra TODOS los dotfiles)
+      -- hide_dotfiles = false,
+    },
+
+  },
+
 
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
@@ -117,6 +138,16 @@ return {
     config = function()
       require("codeium").setup({})
     end,
+  },
+
+  {
+    "NeogitOrg/neogit",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "sindrets/diffview.nvim", -- Opcional, pero recomendado para ver diferencias
+    },
+    config = true,
+    cmd = "Neogit",
   },
 
 

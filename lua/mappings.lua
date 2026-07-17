@@ -16,6 +16,8 @@ map({ "n", "i", "v" }, "<leader>w", "<cmd> w! <cr>", { desc = "Write File"})
 -- quit file
 map({ "n", "i", "v" }, "<leader>q", "<cmd> q! <cr>", { desc = "Quit File"})
 
+map("n", "<C-S-v>", "<C-v>", { desc = "Modo Visual Block (Shift)" })
+
 
 -- Mover cursor en modo insertar
 map({"i"}, "<A-h>","<Left>", { desc = "Move Left in Insert Mode"} )
