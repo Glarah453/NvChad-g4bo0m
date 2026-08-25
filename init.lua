@@ -35,3 +35,17 @@ require "autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+
+-- Forzar colores personalizados para los delimitadores de Jinja
+-- vim.api.nvim_create_autocmd("FileType", {
+--   pattern = "html",
+--   callback = function()
+--     -- Intentar pintar delimitadores de Django/Jinja en Rojo
+--     vim.api.nvim_set_hl(0, "@keyword.operator.django", { fg = "#FF0000" })
+--     vim.api.nvim_set_hl(0, "@tag.delimiter.htmldjango", { fg = "#FF0000" })
+--
+--     -- Intentar pintar las llaves de variables en Verde
+--     vim.api.nvim_set_hl(0, "@variable.parameter.django", { fg = "#00FF00" })
+--   end,
+-- })

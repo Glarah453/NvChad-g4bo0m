@@ -92,6 +92,17 @@ return {
         "rescript", "rust", "scheme", "solidity", "sql", "ssh_config", "superhtml", "tsx",
         "typescript", "vim", "vimdoc", "vue", "xml", "yaml",
       },
+      -- highlight = {
+      --   enable = true,
+      --   -- Agrega esto para desactivar Treesitter en plantillas y evitar que rompa el HTML
+      --   disable = { "htmldjango", "jinja" }, 
+      -- },
+      highlight = {
+        enable = true,
+      },
+      -- Agrega esta sección para forzar la lectura de bloques Jinja/Django
+      indent = { enable = true },
+     
   	},
   },
 
@@ -150,5 +161,22 @@ return {
     cmd = "Neogit",
   },
 
+  -- { 
+  --   "Glench/vim-jinja2-syntax", 
+  --   lazy = false 
+  -- },
+  --
+  -- {
+  --   "jmbuhr/otter.nvim",
+  --   dependencies = {
+  --     "nvim-treesitter/nvim-treesitter",
+  --   },
+  --   opts = {
+  --     buffers = {
+  --       -- Esto permite que actúe en archivos HTML normales
+  --       write_to_disk = false,
+  --     },
+  --   },
+  -- },
 
 }
