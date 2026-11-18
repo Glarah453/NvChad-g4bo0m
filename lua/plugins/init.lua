@@ -71,6 +71,15 @@ return {
       -- O si no usas filters, puedes forzar la visibilidad con:
       -- hide_dotfiles = false, -- (¡Cuidado! Esto muestra TODOS los dotfiles)
       -- hide_dotfiles = false,
+      filesystem_watchers = {
+        ignore_dirs = {
+          "node_modules",
+          ".next",
+          "venv",
+          ".venv",
+          "__pycache__",
+        },
+      },
     },
 
   },
@@ -160,6 +169,28 @@ return {
     config = true,
     cmd = "Neogit",
   },
+
+  {
+    "nvim-telescope/telescope.nvim",
+    opts = {
+      defaults = {
+        file_ignore_patterns = {
+          "node_modules",
+          ".next",
+          ".git",
+          "__pycache__",
+          "venv",
+          ".venv",
+          "%.onnx",
+          "%.pt",
+          "%.pth",
+          "%.h5",
+          "%.csv",
+          "%.json",
+        },
+      },
+    },
+  }
 
   -- { 
   --   "Glench/vim-jinja2-syntax", 
