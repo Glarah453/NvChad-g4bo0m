@@ -27,6 +27,7 @@ vim.api.nvim_create_autocmd("BufReadPre", {
 })
 
 
+vim.opt.timeoutlen = 1500
 
 -- vim.filetype.add({
 --   extension = {

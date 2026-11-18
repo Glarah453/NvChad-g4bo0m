@@ -190,7 +190,12 @@ return {
         },
       },
     },
-  }
+  },
+
+  {
+    "folke/which-key.nvim",
+    lazy = false,
+  },
 
   -- { 
   --   "Glench/vim-jinja2-syntax", 
